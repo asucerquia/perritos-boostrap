@@ -136,6 +136,18 @@ ul {
     list-style: none;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu img {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
 
 /* este es el responsive */
 
@@ -168,5 +180,8 @@ ul {
         text-shadow: 0px 0px 7px #fbdf83;
         font-family: 'Staatliches';
         margin-top: -30px;
+    }
+    .menu img {
+        width: 200px;
     }
 }
